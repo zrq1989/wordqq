@@ -1,0 +1,48 @@
+.Bbottom:after {
+
+        position: absolute;
+
+        content: "";
+
+        height: 1px;
+
+        background: #d5d5d5;
+
+        width: 100%;
+
+        bottom: 0;
+
+        -webkit-transform: scaleY(.5);
+
+        -ms-transform: scaleY(.5);
+
+        -o-transform: scaleY(.5);
+
+        transform: scaleY(.5);
+
+}
+
+.Btop:before {
+
+        position: absolute;
+
+        content: "";
+
+        height: 1px;
+
+        background: #d5d5d5;
+
+        width: 100%;
+
+        top: 0;
+
+        -webkit-transform: scaleY(.5);
+
+        -ms-transform: scaleY(.5);
+
+        -o-transform: scaleY(.5);
+
+        transform: scaleY(.5);
+
+}
+
