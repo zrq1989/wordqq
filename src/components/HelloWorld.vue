@@ -10,7 +10,7 @@
         name: 'HelloWorld',
         methods: {
             changeClick() {
-                this.$http.get('./index.php').then((res) => console.log(res.data)).catch((res) => console.log(res))
+                this.$http.get('./index.php').then((res) => console.log(res.data))
             }
         }
     }
