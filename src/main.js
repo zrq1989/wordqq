@@ -1,10 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import axios from 'axios'
+import router from './router/index'
+import fastClick from 'fastclick'
 
-Vue.prototype.$http = axios
+
 Vue.config.productionTip = false
+fastClick.attach(document.body)
 
 new Vue({
-    render: h => h(App)
+    render: h => h(App),
+    router
 }).$mount('#app')
