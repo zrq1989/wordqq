@@ -4,6 +4,7 @@ import router from './router/index'
 import fastClick from 'fastclick'
 import './styles/ydreset.css'
 import './styles/borders.css'
+import './styles/iconfont.css'
 
 
 Vue.config.productionTip = false
