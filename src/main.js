@@ -5,8 +5,10 @@ import fastClick from 'fastclick'
 import './styles/ydreset.css'
 import './styles/borders.css'
 import './styles/iconfont.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
-
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 
