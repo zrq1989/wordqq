@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="header" id="header">
         <div class="header-left">返回</div>
         <div class="header-input">内容</div>
         <div class="header-right">城市</div>
@@ -12,23 +12,32 @@
     }
 </script>
 
-<style scoped lang="stylus">
-    .header
-        display flex
-        height: 0.86rem
-        background: #00bcd4
-        color: #fff
-        .header-left
-            width: 0.64rem
-            float: left
-        .header-input
-            flex: 1
-            margin-top 0.12rem
-            background: #ffffff
-            border-radius: .1rem
-        .header-right
-            width: 1.24rem
-            float right
+<style scoped lang="less">
+
+    #header {
+
+        display: flex;
+        line-height: 4.3rem;
+        background: #00bcd4;
+        color: #fff;
+
+        .header-left {
+            width: 3.2rem;
+            float: left;
+
+        }
+        .header-input {
+            flex: 1;
+            background: #fff;
+            border-radius: 0.5rem;
+            color: #000;
+            text-align: center;
+        }
+        .header-right {
+            width: 6.2rem;
+            float: right;
+        }
+    }
 
 
 </style>

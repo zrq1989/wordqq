@@ -1,6 +1,5 @@
-@charset "utf-8";
-html,
-body,
+/*html,*/
+/*body,*/
 div,
 span,
 applet,
@@ -71,6 +70,7 @@ td {
 }
 
 html {
+    font-family: 'sans-serif', "Microsoft YaHei", "微软雅黑", "Tahoma", "Helvetica";
     font-size: 50px;
     background: #fff;
     -webkit-text-size-adjust: 100%;
@@ -135,7 +135,7 @@ h6 {
 
 q:before,
 q:after {
-    content: "";
+    content: '';
 }
 
 abbr,
@@ -183,4 +183,38 @@ nav,
 section,
 summary {
     display: block;
+}
+
+@media screen and (min-width: 100px) {
+    /*  iPhone 4,5 */
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*  iPhone 4,5 */
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    /*  iPhone 6 */
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    /*  iPhone 6 plus */
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
 }
